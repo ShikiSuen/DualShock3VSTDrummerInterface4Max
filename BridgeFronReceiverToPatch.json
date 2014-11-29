@@ -1,0 +1,207 @@
+{
+    "fileversion": "2.1",
+    "mapping": {
+        "connections": [
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/BandGainOutput/AltoGain"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/BandGainOutput/AltoGain"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    100
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    100
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/BandGainOutput/SopranoGain"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/BandGainOutput/SopranoGain"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    100
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    100
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/BandGainOutput/BassGain"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/BandGainOutput/BassGain"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    100
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    100
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/BandGainOutput/TenorGain"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/BandGainOutput/TenorGain"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    100
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    100
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/ControlOutput/AudioInitialize"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/ControlOutput/AudioInitialize"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    1
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    1
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/MIDIOutput/NoteBus"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/MIDIOutput/NoteBus"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    127
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    127
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/Boolean/Select"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/ControlOutput/AudioInitialize"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    1
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    1
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            },
+            {
+                "source": [
+                    "/ShikiSuenDualShock3.1/MIDIOutput/VelocityBus"
+                ],
+                "destination": [
+                    "/Shiki-MultibandDrums.1/MIDIOutput/VelocityBus"
+                ],
+                "mute": 0,
+                "mode": "linear",
+                "srcMin": [
+                    0
+                ],
+                "srcMax": [
+                    127
+                ],
+                "destMin": [
+                    0
+                ],
+                "destMax": [
+                    127
+                ],
+                "expression": "d[0]=s[0]",
+                "boundMin": "none",
+                "boundMax": "none"
+            }
+        ]
+    }
+}
